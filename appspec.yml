@@ -1,11 +1,14 @@
 version: 0.0
 os: linux
 files:
-  - source: /webpage
-    destination: /var/www
+  - source: /portfolio
+    destination: /home/ec2-user
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
+      timeout: 300
+      runas: root
+    - location: scripts/deploy_react
       timeout: 300
       runas: root
     - location: scripts/start_server

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# deploy build
+# cd /home/ec2-user/portfolio
+npm run build
+
+# copy build contents to www folder where nginx will look for it
+mv /home/ec2-user/portfolio/build/*  /var/www

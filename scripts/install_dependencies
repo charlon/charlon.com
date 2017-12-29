@@ -1,3 +1,10 @@
 #!/bin/bash
+
+# install nginx
 yum install -y nginx
 sed -i "s|/usr/share/nginx/html|/var/www|g" /etc/nginx/nginx.conf
+
+# install nodejs
+# use curl or wget on aws ec2????
+curl --silent --location https://rpm.nodesource.com/setup_9.x | sudo bash -
+yum install -y nodejs
