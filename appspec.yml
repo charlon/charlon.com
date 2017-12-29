@@ -1,6 +1,8 @@
 version: 0.0
 os: linux
 files:
+  - source: /webpage
+    destination: /var/www
   - source: /portfolio
     destination: /home/ec2-user
 hooks:
