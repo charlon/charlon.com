@@ -3,8 +3,8 @@
 # change into home directory and run npm build command
 # appspec should have moved files into /home/ec2-user/portfolio
 
-cd /home/ec2-user/portfolio
-npm run build
+# cd /home/ec2-user/portfolio
+npm --prefix /home/ec2-user/portfolio run build
 
 # copy build contents to www folder where nginx will look for it
 # test deploy first before moving files
