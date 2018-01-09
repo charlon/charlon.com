@@ -4,7 +4,7 @@ files:
   - source: /webpage
     destination: /var/www
   - source: /portfolio
-    destination: /home/ec2-user/
+    destination: /home/ec2-user
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
