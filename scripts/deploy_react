@@ -7,4 +7,5 @@ npm --prefix /home/ec2-user run build
 
 # copy build contents to www folder where nginx will look for it
 # test deploy first before moving files
+
 # mv /home/ec2-user/build/*  /var/www/
