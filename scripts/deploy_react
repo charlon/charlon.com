@@ -9,6 +9,5 @@ npm install --save react-router
 npm --prefix /home/ec2-user run build
 
 # Copy build contents to www folder where nginx will look for it
-# Test deploy first before moving files
 
 mv /home/ec2-user/build/*  /var/www
