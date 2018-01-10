@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Install react dependencies
-# npm install --save react-router
+npm install --save react-router
 
 # Run npm build command against 'portfolio' app
 # Appspec should have moved files into /home/ec2-user
 
-# npm --prefix /home/ec2-user run build
+npm --prefix /home/ec2-user run build
 
 # Copy build contents to www folder where nginx will look for it
 # Test deploy first before moving files
 
-# mv /home/ec2-user/build/*  /var/www/
+mv /home/ec2-user/build/*  /var/www
