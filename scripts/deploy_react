@@ -8,6 +8,8 @@ npm install
 
 npm --prefix /home/ec2-user run build
 
-# Copy build contents to www folder where nginx will look for it
+# Empty contents of /var/www
+rm -rf /var/www/*
 
-mv --backup=numbered /home/ec2-user/build/*  /var/www
+# Move build contents to /var/www folder where nginx will serve content
+mv /home/ec2-user/build/*  /var/www
