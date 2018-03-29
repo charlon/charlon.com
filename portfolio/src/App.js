@@ -7,15 +7,9 @@ const App = () => (
   <Router>
     <div>
       <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/portfolio">Portfolio</Link>
-        </li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/portfolio">Portfolio</Link></li>
       </ul>
 
       <hr />
@@ -30,12 +24,14 @@ const App = () => (
 const Home = () => (
   <div>
     <h2>Home</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pellentesque nibh, eu euismod mi. In sit amet libero sapien. Fusce erat sapien, egestas fermentum blandit in, luctus in est. Cras a pellentesque urna, at pharetra justo. <Link to="/about">more about me</Link></p>
   </div>
 );
 
 const About = () => (
   <div>
     <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel pellentesque nibh, eu euismod mi. In sit amet libero sapien. Fusce erat sapien, egestas fermentum blandit in, luctus in est. Cras a pellentesque urna, at pharetra justo. Vivamus rhoncus diam nisi, at suscipit tellus iaculis sed. Morbi iaculis magna ac augue aliquam faucibus. Donec hendrerit lacus arcu, quis sagittis nunc semper tincidunt. Maecenas viverra laoreet aliquam. Nam fringilla, ex at pretium ultricies, mi nisi pharetra nulla, ut aliquam neque nisi sit amet leo. Ut scelerisque sem lacinia, bibendum dolor et, pretium velit.</p>
   </div>
 );
 
@@ -43,15 +39,10 @@ const Portfolio = ({ match }) => (
   <div>
     <h2>Portfolio</h2>
     <ul>
-      <li>
-        <Link to={`${match.url}/rendering`}>Rendering with React</Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/components`}>Components</Link>
-      </li>
-      <li>
-        <Link to={`${match.url}/props-v-state`}>Props v. State</Link>
-      </li>
+      <li><Link to={`${match.url}/myplan`}>myplan</Link></li>
+      <li><Link to={`${match.url}/scout`}>scout</Link></li>
+      <li><Link to={`${match.url}/myuw`}>myuw</Link></li>
+      <li><Link to={`${match.url}/sqlshare`}>sqlshare</Link></li>
     </ul>
 
     <Route path={`${match.url}/:projectId`} component={Project} />
@@ -66,6 +57,7 @@ const Portfolio = ({ match }) => (
 const Project = ({ match }) => (
   <div>
     <h3>{match.params.projectId}</h3>
+    <p>asdfafds</p>
   </div>
 );
 
