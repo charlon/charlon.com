@@ -10,7 +10,7 @@ GitHub repository for AWS CodeStar website charlon-com written in ReactJS.
 Clone this repository:
 ```
   $ git clone https://github.com/charlon/charlon.com.git
-  $ cd charlon.com
+  $ cd charlon.com/portfolio
 ```
 
 Install Node dependencies:
