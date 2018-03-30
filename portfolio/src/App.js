@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import { Router, Switch, Route, Link } from "react-router-dom";
-import logo from './logo.svg';
+import React from 'react'
+import { Switch, Route } from "react-router-dom"
 
 import Home from './Home'
 import About from './About'
