@@ -4,12 +4,20 @@ import './Home.css'
 const Home = () => (
   <div>
 
-    <section class="jumbotron text-center bg-light home-me">
+    <header class="text-center home-me">
       <div class="container">
-        <h1 class="jumbotron-heading">Charlon Palacay</h1>
-        <p class="lead text-muted">UX Designer + Front-end Developer</p>
+        <div class="row">
+
+          <div class="home-me-content">
+              <div class="home-me-content-inner">
+              <h1 class="">Charlon Palacay</h1>
+              <p class="lead text-muted">UX Designer + Front-end Developer</p>
+            </div>
+          </div>
+
+        </div>
       </div>
-    </section>
+    </header>
 
     <section class="jumbotron text-center">
       <div class="container">

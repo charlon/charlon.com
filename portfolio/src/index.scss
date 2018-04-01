@@ -5,6 +5,15 @@ body {
 }
 
 
+nav {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  right: 20px;
+  z-index: 1;
+
+}
+
 :root {
   --jumbotron-padding-y: 3rem;
 }

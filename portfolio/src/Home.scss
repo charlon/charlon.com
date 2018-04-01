@@ -1,6 +1,36 @@
+header {
+
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  overflow-y: hidden;
+  background: #aaa;
+  //background: -webkit-linear-gradient(to left, #F8B51C, #FFAC00);
+  //background: linear-gradient(to left, #F8B51C, #FFAC00);
+  color: black;
+
+}
+
+
 .home-me {
   h1 { font-size: 5rem; color: red; }
   .lead { font-size: 2rem;}
+
+  .home-me-content { height: 100vh;
+
+    .home-me-content-inner {
+      max-width: none;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      margin: 30px;
+    }
+
+  }
+
 }
 
 .home-uw {
