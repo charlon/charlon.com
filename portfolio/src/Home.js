@@ -11,28 +11,28 @@ const Home = () => (
             <div class="col-md-12">
               <h1 class="">Charlon Palacay</h1>
               <p class="lead text-muted">UX Designer + Front-end Developer</p>
-              <p><a href="/about" class="btn btn-outline-primary">who</a> <a href="/about" class="btn btn-outline-primary">what</a> <a href="/about" class="btn btn-outline-primary">where</a></p>
+              <p><a href="#who" class="btn btn-outline-secondary">who</a> <a href="#what" class="btn btn-outline-secondary">what</a> <a href="#where" class="btn btn-outline-secondary">where</a></p>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="text-center">
+    <section id="who" class="">
       <div class="home-content">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <h2>Who Am I</h2>
               <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-              <p><a href="/about" class="btn btn-outline-primary">more about me</a></p>
+              <p><a href="/about" class="btn btn-outline-secondary">more about me</a></p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="text-center bg-light">
+    <section id="what" class="bg-light">
       <div class="home-content">
         <div class="container">
           <div class="row">
@@ -78,7 +78,7 @@ const Home = () => (
             </div>
 
             <div class="col-md-12">
-              <a href="/portfolio" class="btn btn-outline-primary">view my portfolio</a>
+              <a href="/portfolio" class="btn btn-outline-secondary">view my portfolio</a>
             </div>
 
           </div>
@@ -86,15 +86,15 @@ const Home = () => (
       </div>
     </section>
 
-    <section class="text-center home-uw">
+    <section id="where" class="home-uw">
       <div class="home-content">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
 
               <h2 class="">Where I work</h2>
-              <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-              <p><a href="/resume" class="btn btn-outline-primary">view my resume</a></p>
+              <p class="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+              <p><a href="/resume" class="btn btn-outline-light">view my resume</a></p>
 
             </div>
           </div>

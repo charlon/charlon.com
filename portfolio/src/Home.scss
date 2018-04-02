@@ -24,4 +24,7 @@ header, section { height: 100vh; position: relative;   overflow-y: hidden;
 
 .home-uw {
   background: purple;
+  color: #fff;
+
+  .lead { color: #ddd; }
 }
