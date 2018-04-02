@@ -4,13 +4,14 @@ import './Home.css'
 const Home = () => (
   <div>
 
-    <header class="text-center bg-light home-me">
+    <header class="bg-light home-me">
       <div class="home-content">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
               <h1 class="">Charlon Palacay</h1>
               <p class="lead text-muted">UX Designer + Front-end Developer</p>
+              <p><a href="/about" class="btn btn-outline-primary">who</a> <a href="/about" class="btn btn-outline-primary">what</a> <a href="/about" class="btn btn-outline-primary">where</a></p>
             </div>
           </div>
         </div>
@@ -24,7 +25,7 @@ const Home = () => (
             <div class="col-md-12">
               <h2>Who Am I</h2>
               <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-              <p><a href="/about" class="btn btn-primary my-2">more about me</a></p>
+              <p><a href="/about" class="btn btn-outline-primary">more about me</a></p>
             </div>
           </div>
         </div>
@@ -41,7 +42,7 @@ const Home = () => (
               <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
 
-            {/* hide on mobile only */} 
+            {/* hide on mobile only */}
             <div class="col-md-3 d-none d-sm-block">
               <div class="card mb-3 box-shadow">
                 <div class="card-body">
@@ -77,7 +78,7 @@ const Home = () => (
             </div>
 
             <div class="col-md-12">
-              <a href="/portfolio" class="btn btn-primary my-2">view my portfolio</a>
+              <a href="/portfolio" class="btn btn-outline-primary">view my portfolio</a>
             </div>
 
           </div>
@@ -93,7 +94,7 @@ const Home = () => (
 
               <h2 class="">Where I work</h2>
               <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-              <p><a href="/resume" class="btn btn-primary my-2">view my resume</a></p>
+              <p><a href="/resume" class="btn btn-outline-primary">view my resume</a></p>
 
             </div>
           </div>
