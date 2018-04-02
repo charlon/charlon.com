@@ -1,6 +1,11 @@
 import React from 'react'
 import './Home.css'
 
+function handleClick(e) {
+    e.preventDefault();
+    console.log('The link was clicked.');
+}
+
 const Home = () => (
   <div>
 
@@ -11,7 +16,11 @@ const Home = () => (
             <div class="col-md-12">
               <h1 class="">Charlon Palacay</h1>
               <p class="lead text-muted">Product Designer + Front-end Developer</p>
-              <p><a href="#who" class="btn btn-outline-secondary">who</a> <a href="#what" class="btn btn-outline-secondary">what</a> <a href="#where" class="btn btn-outline-secondary">where</a></p>
+              <ul>
+                <li><a href="#who" onClick={handleClick} class="btn btn-outline-secondary">who</a></li>
+                <li><a href="#what" onClick={handleClick} class="btn btn-outline-secondary">what</a></li>
+                <li><a href="#where" onClick={handleClick} class="btn btn-outline-secondary">where</a></li>
+              </ul>
             </div>
           </div>
         </div>
