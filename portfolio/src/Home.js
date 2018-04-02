@@ -10,7 +10,7 @@ const Home = () => (
           <div class="row">
             <div class="col-md-12">
               <h1 class="">Charlon Palacay</h1>
-              <p class="lead text-muted">UX Designer + Front-end Developer</p>
+              <p class="lead text-muted">Product Designer + Front-end Developer</p>
               <p><a href="#who" class="btn btn-outline-secondary">who</a> <a href="#what" class="btn btn-outline-secondary">what</a> <a href="#where" class="btn btn-outline-secondary">where</a></p>
             </div>
           </div>
