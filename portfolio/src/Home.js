@@ -41,7 +41,8 @@ const Home = () => (
               <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
 
-            <div class="col-md-3">
+            {/* hide on mobile only */} 
+            <div class="col-md-3 d-none d-sm-block">
               <div class="card mb-3 box-shadow">
                 <div class="card-body">
                   <h3>Research</h3>
@@ -49,7 +50,7 @@ const Home = () => (
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 d-none d-sm-block">
               <div class="card mb-3 box-shadow">
                 <div class="card-body">
                   <h3>UX Design</h3>
@@ -57,7 +58,7 @@ const Home = () => (
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 d-none d-sm-block">
               <div class="card mb-3 box-shadow">
                 <div class="card-body">
                   <h3>Product Management</h3>
@@ -66,7 +67,7 @@ const Home = () => (
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 d-none d-sm-block">
               <div class="card mb-3 box-shadow">
                 <div class="card-body">
                   <h3>Front-end Develop</h3>
