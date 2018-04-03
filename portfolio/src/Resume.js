@@ -4,7 +4,7 @@ const Resume = () => (
 
   <div>
 
-    <header className="">
+    <header className="bg-light">
       <div className="content">
         <div className="container">
           <div className="row">
@@ -17,7 +17,7 @@ const Resume = () => (
       </div>
     </header>
 
-    <div className="py-5 bg-light">
+    <div className="">
       <div className="container">
         <div className="row">
           <div className="col-md-12">

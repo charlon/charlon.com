@@ -23,7 +23,7 @@ const Home = () => (
       </div>
     </header>
 
-    <section id="what" className="home-portfolio bg-light">
+    <section id="what" className="home-portfolio">
       <div className="content">
         <div className="container">
           <div className="row">
