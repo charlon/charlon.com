@@ -9,7 +9,7 @@ function handleClick(e) {
 const Home = () => (
   <div>
 
-    <header id="who" className="bg-light">
+    <header id="who" className="home-about">
       <div className="content">
         <div className="container">
           <div className="row">
@@ -23,7 +23,7 @@ const Home = () => (
       </div>
     </header>
 
-    <section id="what" className="">
+    <section id="what" className="home-portfolio bg-light">
       <div className="content">
         <div className="container">
           <div className="row">

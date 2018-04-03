@@ -1,10 +1,11 @@
 import React from 'react'
+import './About.css'
 
 const About = () => (
 
   <div>
 
-    <header className="">
+    <header className="about-me">
       <div className="content">
         <div className="container">
           <div className="row">
