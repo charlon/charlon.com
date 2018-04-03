@@ -4,14 +4,20 @@ const Portfolio = () => (
 
   <div>
 
-    <section className="jumbotron text-center">
-      <div className="container">
-        <h1 className="jumbotron-heading">Portfolio</h1>
-        <p className="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+    <header className="">
+      <div className="content">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <h1 className="">Portfolio</h1>
+              <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </header>
 
-    <section className="bg-light">
+    <div className="bg-light">
       <div className="container">
         <div className="row">
 
@@ -74,7 +80,7 @@ const Portfolio = () => (
 
         </div>
       </div>
-    </section>
+    </div>
 
   </div>
 

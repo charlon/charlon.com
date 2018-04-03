@@ -1,3 +1,5 @@
+/** global styles **/
+
 body {
   margin: 0;
   padding: 0;
@@ -13,6 +15,29 @@ nav {
   z-index: 1;
 
 }
+
+
+header, section { height: 100vh; position: relative;   overflow-y: hidden;
+
+  .content {
+      max-width: none;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      padding: 50px 0;
+      background: rgba(0, 0, 0, 0.6);
+
+      h1, h2 { color: #fff; }
+
+      .lead { color: #eee; }
+  }
+}
+
+
+/** other stuff **/
 
 :root {
   --jumbotron-padding-y: 3rem;
