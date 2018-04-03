@@ -4,17 +4,17 @@ const Resume = () => (
 
   <div>
 
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading">Resume</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+    <section className="jumbotron text-center">
+      <div className="container">
+        <h1 className="jumbotron-heading">Resume</h1>
+        <p className="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
       </div>
     </section>
 
-    <div class="py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+    <div className="py-5 bg-light">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus congue, iaculis magna ac, volutpat ipsum. Integer bibendum tortor eget nunc tristique, eget porta leo consequat. Sed volutpat tincidunt lectus at ultrices. Suspendisse ornare libero metus, vel vestibulum tellus suscipit nec. Nam pellentesque lacus vitae hendrerit rhoncus. Cras quis augue ac magna iaculis faucibus vitae nec dolor. Fusce ac placerat massa. Proin semper elit eget nulla vulputate, porta accumsan metus posuere.</p>
 
