@@ -16,14 +16,14 @@ const Home = () => (
             <div className="col-md-8">
               <h2>Charlon Palacay</h2>
               <p className="lead">Currently working in Seattle, Washington.</p>
-              <p><a href="/about" className="btn btn-outline-light">more about me</a></p>
+              <p><a href="/about" className="btn btn-outline-secondary">more about me</a></p>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section id="what" className="home-portfolio">
+    <section id="what" className="home-portfolio bg-light">
       <div className="content">
         <div className="container">
           <div className="row">
@@ -69,7 +69,7 @@ const Home = () => (
             </div>
 
             <div className="col-md-8">
-              <a href="/portfolio" className="btn btn-outline-light">view my portfolio</a>
+              <a href="/portfolio" className="btn btn-outline-secondary">view my portfolio</a>
             </div>
 
           </div>

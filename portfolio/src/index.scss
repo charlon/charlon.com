@@ -8,11 +8,26 @@ body {
 
 
 nav {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  z-index: 1;
+  //position: absolute;
+  //top: 20px;
+  //left: 20px;
+  //right: 20px;
+  //z-index: 1;
+
+  a {
+      font-family: 'Abel', sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      background-color: #666;
+      padding: 8px;
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+          text-decoration: none;
+          color: #eee;
+      }
+    }
 
 }
 
@@ -30,9 +45,9 @@ header, section { height: 100vh; position: relative;   overflow-y: hidden;
       padding: 50px 0;
       //background: rgba(0, 0, 0, 0.6);
 
-      h1, h2 { color: #fff; }
+      h1, h2 { }
 
-      .lead { color: #eee; }
+      .lead {  }
   }
 }
 
