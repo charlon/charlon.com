@@ -1,23 +1,40 @@
 .home-about {
 
-  background: url("/asian-dude.jpg") no-repeat;
-  background-position: 70%;
-  background-size: contain;
-
-  height: 80vh;
-  position: relative;
-  overflow-y: hidden;
-
   .content {
       max-width: none;
       margin: 0;
-      position: absolute;
+      //position: absolute;
       //top: 25%;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 0;
-      right: 0;
-      padding: 50px 0;
+      //top: 30%;
+      //transform: translateY(-50%);
+      //left: 0;
+    //  right: 0;
+      padding: 0;
+
+      .ooops {
+        margin-top: 50px;
+        overflow-x: visible;
+        z-index: 1;
+        h2 { font-size: 3rem;}
+        .lead { font-size: 1.5rem; }
+
+      }
+
+      .blah {
+          padding: 0;
+          height: 25vh;
+          background: url("/asian-dude.jpg") no-repeat;
+          background-position: 50% 5%;
+          background-size: cover;
+
+          @media (min-width: 400px) {
+            margin-top: 50px;
+            height: 50vh;
+            background-position: bottom left;
+            background-size: contain;
+          }
+
+      }
     }
 }
 

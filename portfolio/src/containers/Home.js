@@ -13,10 +13,13 @@ const Home = () => (
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
-              <h2>Charlon Palacay</h2>
+            <div className="col-md-6 ooops">
+              <h2 className="">Charlon Palacay</h2>
               <p className="lead">Product Designer currently working in Seattle, Washington. I have a passion for creating and designing positive user experiences.</p>
               <p><a href="/about" className="btn btn-outline-secondary">more about me</a></p>
+            </div>
+            <div className="col-md-6 blah">
+              &nbsp;
             </div>
           </div>
         </div>
