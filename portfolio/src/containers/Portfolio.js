@@ -17,7 +17,7 @@ const Portfolio = () => (
       </div>
     </header>
 
-    <div className="bg-light">
+    <div className="py-5 bg-light">
       <div className="container">
         <div className="row">
 

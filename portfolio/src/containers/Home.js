@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+import '../styles/Home.css'
 
 function handleClick(e) {
     //e.preventDefault();
@@ -15,7 +15,7 @@ const Home = () => (
           <div className="row">
             <div className="col-md-8">
               <h2>Charlon Palacay</h2>
-              <p className="lead">Product Designer currently working in Seattle, Washington. I have a passion for creating positive user experiences.</p>
+              <p className="lead">Product Designer currently working in Seattle, Washington. I have a passion for creating and designing positive user experiences.</p>
               <p><a href="/about" className="btn btn-outline-secondary">more about me</a></p>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Home = () => (
           <div className="row">
 
             <div className="col-md-12">
-              <h2>User Experience Designer</h2>
+              <h2>User Experience</h2>
               <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
 
@@ -53,7 +53,7 @@ const Home = () => (
             <div className="col-md-3 d-none d-sm-block">
               <div className="card mb-3 box-shadow">
                 <div className="card-body">
-                  <h3>Product Management</h3>
+                  <h3>Prototype</h3>
                   <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const Home = () => (
             <div className="col-md-3 d-none d-sm-block">
               <div className="card mb-3 box-shadow">
                 <div className="card-body">
-                  <h3>Front-end Develop</h3>
+                  <h3>Iterate</h3>
                   <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -84,8 +84,8 @@ const Home = () => (
             <div className="col-md-8">
 
               <h2 className="">University of Washington</h2>
-              <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-              <p><a href="/resume" className="btn btn-outline-light">view my resume</a></p>
+              <p className="lead">I've worked in higher-education over the past 8 years improving the student academic experience by designing thoughtful and simple interfaces.</p>
+              <p><a href="/resume" className="btn btn-outline-secondary">view my resume</a></p>
 
             </div>
           </div>

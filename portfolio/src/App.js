@@ -1,10 +1,10 @@
 import React from 'react'
 import { Switch, Route } from "react-router-dom"
 
-import Home from './Home'
-import About from './About'
-import Resume from './Resume'
-import Portfolio from './Portfolio'
+import Home from './containers/Home'
+import About from './containers/About'
+import Resume from './containers/Resume'
+import Portfolio from './containers/Portfolio'
 
 const App = () => (
 

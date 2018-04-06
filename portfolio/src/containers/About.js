@@ -1,15 +1,16 @@
 import React from 'react'
+import '../styles/About.css'
 
-const Resume = () => (
+const About = () => (
 
   <div>
 
-    <header className="bg-light">
+    <header className="about-me">
       <div className="content">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="">Resume</h1>
+              <h1>About Me</h1>
               <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
           </div>
@@ -17,7 +18,7 @@ const Resume = () => (
       </div>
     </header>
 
-    <div className="">
+    <div className="py-5 bg-light">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -26,7 +27,12 @@ const Resume = () => (
 
             <p>Curabitur volutpat ex id ultricies iaculis. Donec elementum finibus nibh in ornare. Suspendisse dictum placerat ullamcorper. Mauris eleifend eleifend maximus. Donec eu neque tristique nunc porttitor hendrerit id eu est. Praesent vulputate lectus at enim vehicula tincidunt. Nullam purus neque, luctus ut semper porta, dignissim ut lacus. Morbi ac ante velit. Maecenas non felis vitae dui dignissim varius sit amet non ligula. Praesent placerat elit in dui tempor elementum. Nulla lacinia magna sed eros consectetur malesuada.</p>
 
+            <ul>
+              <li><a href="/portfolio" className="btn btn-secondary my-2">view portfolio</a></li>
+              <li><a href="/resume" className="btn btn-secondary my-2">view my resume</a></li>
+            </ul>
           </div>
+
         </div>
       </div>
     </div>
@@ -36,4 +42,4 @@ const Resume = () => (
 )
 
 
-export default Resume
+export default About
