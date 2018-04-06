@@ -15,7 +15,7 @@ const Home = () => (
           <div className="row">
             <div className="col-md-8">
               <h2>Charlon Palacay</h2>
-              <p className="lead">Currently working in Seattle, Washington.</p>
+              <p className="lead">Product Designer currently working in Seattle, Washington. I have a passion for creating positive user experiences.</p>
               <p><a href="/about" className="btn btn-outline-secondary">more about me</a></p>
             </div>
           </div>
