@@ -1,17 +1,34 @@
 .home-about {
-  background-size: cover;
-  background-position: left center;
+
+  background: url("/asian-dude.jpg") no-repeat;
+  background-position: bottom right;
+  background-size: contain;
+
+  height: 80vh;
+  position: relative;
+  overflow-y: hidden;
+
+  .content {
+      max-width: none;
+      margin: 0;
+      position: absolute;
+      //top: 25%;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      padding: 50px 0;
+    }
 }
 
 .home-portfolio {
-  //background: url("/IMG_0948.jpg") no-repeat;
-  //background: orange;
   background-size: cover;
   background-position: center center;
+
 }
 
-.home-uw {
-  //background: url("/uw-paccar.jpg") no-repeat;
+.home-featured {
   background-size: cover;
   background-position: center center;
+  overflow-x: hidden;
 }

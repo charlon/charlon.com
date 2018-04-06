@@ -29,8 +29,9 @@ const About = () => (
 
             <ul>
               <li><a href="/portfolio" className="btn btn-secondary my-2">view portfolio</a></li>
-              <li><a href="/resume" className="btn btn-secondary my-2">view my resume</a></li>
+              <li><a href="/cpalacay-resume.pdf" className="btn btn-secondary my-2">view my resume</a></li>
             </ul>
+
           </div>
 
         </div>

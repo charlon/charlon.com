@@ -70,6 +70,7 @@ const Home = () => (
 
             <div className="col-md-8">
               <a href="/portfolio" className="btn btn-outline-secondary">view my portfolio</a>
+              <a href="/cpalacay-resume.pdf" className="btn btn-outline-secondary">download resume</a>
             </div>
 
           </div>
@@ -77,18 +78,18 @@ const Home = () => (
       </div>
     </section>
 
-    <section id="where" className="home-uw">
+    <section id="where" className="home-featured">
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-12">
 
-              <h2 className="">University of Washington</h2>
-              <p className="lead">I've worked in higher-education over the past 8 years improving the student academic experience by designing thoughtful and simple interfaces.</p>
-              <p><a href="/resume" className="btn btn-outline-secondary">view my resume</a></p>
+              <h2 className="">Featured Work</h2>
+              <p className="lead">I've worked in higher-education over the past 8 years improving the student academic experience by designing thoughtful and simple interfaces. Meet Scout!</p>
+              <p><a href="/portfolio/scout" className="btn btn-outline-secondary">read case study</a></p>
 
-              <div><img className="" src="/imac-ipad-iphone.png" alt="Card cap" /></div>
-              
+              <div className="text-center"><img className="" src="/imac-ipad-iphone.png" alt="Card cap" /></div>
+
             </div>
           </div>
         </div>
