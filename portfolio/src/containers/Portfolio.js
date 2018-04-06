@@ -19,6 +19,24 @@ const Portfolio = () => (
 
     <div className="py-5 bg-light">
       <div className="container">
+
+        <div className="row">
+          <img className="" src="/macbook-iphone.png" alt="Card cap" />
+        </div>
+
+        <div className="row align-right">
+          <img className="" src="/imac-ipad-iphone.png" alt="Card cap" />
+        </div>
+
+        <div className="row">
+          <img className="" src="/macbook-iphone.png" alt="Card cap" />
+        </div>
+        
+      </div>
+    </div>
+
+    <div className="py-5 bg-light">
+      <div className="container">
         <div className="row">
 
           <div className="col-md-4">
@@ -81,6 +99,8 @@ const Portfolio = () => (
         </div>
       </div>
     </div>
+
+
 
   </div>
 

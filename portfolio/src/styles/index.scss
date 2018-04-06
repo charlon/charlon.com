@@ -16,10 +16,11 @@ nav {
 
   a {
       font-family: 'Abel', sans-serif;
-      font-size: 20px;
+      font-size: 30px;
       text-transform: uppercase;
       background-color: #6c757d;
-      line-height: 40px;
+      line-height: 50px;
+      text-align: center;
       padding: 0 8px;
       display: inline-block;
       color: #fff;
@@ -34,16 +35,18 @@ nav {
 }
 
 
-header, section { height: 100vh; position: relative;   overflow-y: hidden;
+header, section {
+
+  //height: 100vh; position: relative;   overflow-y: hidden;
 
   .content {
       max-width: none;
       margin: 0;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      left: 0;
-      right: 0;
+      //position: absolute;
+      //top: 50%;
+      //transform: translateY(-50%);
+    //  left: 0;
+    //  right: 0;
       padding: 50px 0;
       //background: rgba(0, 0, 0, 0.6);
 

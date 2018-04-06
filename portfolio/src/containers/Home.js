@@ -29,7 +29,7 @@ const Home = () => (
           <div className="row">
 
             <div className="col-md-12">
-              <h2>User Experience</h2>
+              <h2>Product Designer</h2>
               <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
 
@@ -37,7 +37,7 @@ const Home = () => (
             <div className="col-md-3 d-none d-sm-block">
               <div className="card mb-3 box-shadow">
                 <div className="card-body">
-                  <h3>Research</h3>
+                  <h3>User Research</h3>
                   <p className="card-text">Understand the problem, empathize with the person. Explore the competitive landscape. Identify strategic opportunities. Define design goals and requirements.</p>
                 </div>
               </div>
@@ -45,7 +45,7 @@ const Home = () => (
             <div className="col-md-3 d-none d-sm-block">
               <div className="card mb-3 box-shadow">
                 <div className="card-body">
-                  <h3>Design</h3>
+                  <h3>Content Strategy</h3>
                   <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -53,7 +53,7 @@ const Home = () => (
             <div className="col-md-3 d-none d-sm-block">
               <div className="card mb-3 box-shadow">
                 <div className="card-body">
-                  <h3>Prototype</h3>
+                  <h3>Visual Design</h3>
                   <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const Home = () => (
             <div className="col-md-3 d-none d-sm-block">
               <div className="card mb-3 box-shadow">
                 <div className="card-body">
-                  <h3>Iterate</h3>
+                  <h3>Front-end Development</h3>
                   <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
               </div>
@@ -87,6 +87,8 @@ const Home = () => (
               <p className="lead">I've worked in higher-education over the past 8 years improving the student academic experience by designing thoughtful and simple interfaces.</p>
               <p><a href="/resume" className="btn btn-outline-secondary">view my resume</a></p>
 
+              <div><img className="" src="/imac-ipad-iphone.png" alt="Card cap" /></div>
+              
             </div>
           </div>
         </div>
