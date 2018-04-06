@@ -13,7 +13,7 @@ const Home = () => (
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-md-8">
+            <div className="col-md-6">
               <h2>Charlon Palacay</h2>
               <p className="lead">Product Designer currently working in Seattle, Washington. I have a passion for creating and designing positive user experiences.</p>
               <p><a href="/about" className="btn btn-outline-secondary">more about me</a></p>
@@ -28,10 +28,12 @@ const Home = () => (
         <div className="container">
           <div className="row">
 
-            <div className="col-md-12">
+            <div className="offset-md-2 col-md-8 text-center">
               <h2>Product Designer</h2>
               <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
+
+            <div class="w-100"></div>
 
             {/* hide on mobile only */}
             <div className="col-md-3 d-none d-sm-block">
@@ -68,8 +70,8 @@ const Home = () => (
               </div>
             </div>
 
-            <div className="col-md-8">
-              <a href="/portfolio" className="btn btn-outline-secondary">view my portfolio</a>
+            <div className="offset-md-2 col-md-8 text-center">
+              <a href="/portfolio" className="btn btn-outline-secondary">view my portfolio</a>&nbsp;&nbsp;
               <a href="/cpalacay-resume.pdf" className="btn btn-outline-secondary">download resume</a>
             </div>
 
@@ -82,15 +84,17 @@ const Home = () => (
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
 
+            <div className="col-md-6">
               <h2 className="">Featured Work</h2>
               <p className="lead">I've worked in higher-education over the past 8 years improving the student academic experience by designing thoughtful and simple interfaces. Meet Scout!</p>
               <p><a href="/portfolio/scout" className="btn btn-outline-secondary">read case study</a></p>
-
-              <div className="text-center"><img className="" src="/imac-ipad-iphone.png" alt="Card cap" /></div>
-
             </div>
+
+            <div className="col-md-12">
+              <div className="text-center"><img className="" src="/imac-ipad-iphone.png" alt="Card cap" /></div>
+            </div>
+
           </div>
         </div>
       </div>
