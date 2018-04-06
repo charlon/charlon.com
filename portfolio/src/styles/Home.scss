@@ -22,17 +22,19 @@
 
       .blah {
           padding: 0;
-          height: 25vh;
+          height: 200px;
           background: url("/asian-dude.jpg") no-repeat;
           background-position: 50% 5%;
-          background-size: cover;
+          background-size: 150%;
 
-          @media (min-width: 400px) {
+          @media (min-width: 768px) {
             margin-top: 50px;
             height: 50vh;
-            background-position: bottom left;
+            background-position: bottom;
             background-size: contain;
           }
+
+
 
       }
     }
