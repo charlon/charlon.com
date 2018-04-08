@@ -95,7 +95,7 @@ const Home = () => (
             </div>
 
             <div className="col-md-12">
-              <div className="text-center"><img className="" src="/macbook-iphone.png" alt="Card cap" /></div>
+              <div className="text-center"><img className="" src="/macbook-iphone.png" width="900" alt="Card cap" /></div>
             </div>
 
           </div>
