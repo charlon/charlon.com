@@ -22,10 +22,11 @@ const Scout = () => (
         <div className="row">
 
           <div className="col-md-12">
-            <div className="text-center"><img className="" src="/macbook-iphone.png" width="900" alt="Card cap" /></div>
-          </div>
 
-          <div className="col-md-12">
+            <h2>Problem</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus congue, iaculis magna ac, volutpat ipsum. Integer bibendum tortor eget nunc tristique, eget porta leo consequat. Sed volutpat tincidunt lectus at ultrices. Suspendisse ornare libero metus, vel vestibulum tellus suscipit nec. Nam pellentesque lacus vitae hendrerit rhoncus. Cras quis augue ac magna iaculis faucibus vitae nec dolor. Fusce ac placerat massa. Proin semper elit eget nulla vulputate, porta accumsan metus posuere.</p>
+
+            <div className="text-center"><img className="" src="/macbook-iphone.png" width="900" alt="Card cap" /></div>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus congue, iaculis magna ac, volutpat ipsum. Integer bibendum tortor eget nunc tristique, eget porta leo consequat. Sed volutpat tincidunt lectus at ultrices. Suspendisse ornare libero metus, vel vestibulum tellus suscipit nec. Nam pellentesque lacus vitae hendrerit rhoncus. Cras quis augue ac magna iaculis faucibus vitae nec dolor. Fusce ac placerat massa. Proin semper elit eget nulla vulputate, porta accumsan metus posuere.</p>
 
