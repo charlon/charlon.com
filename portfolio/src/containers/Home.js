@@ -36,7 +36,7 @@ const Home = () => (
               <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
 
-            <div class="w-100"></div>
+            <div class="w-100 mb-5"></div>
 
             {/* hide on mobile only */}
             <div className="col-md-3 d-none d-sm-block">
