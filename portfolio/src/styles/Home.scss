@@ -28,9 +28,8 @@
           background-size: 125%;
 
           @media (min-width: 768px) {
-            margin-top: 50px;
             height: 50vh;
-            background-position: bottom;
+            background-position: bottom left;
             background-size: contain;
           }
 

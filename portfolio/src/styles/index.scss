@@ -15,17 +15,19 @@ nav {
   right: 20px;
   z-index: 1;*/
 
+  margin-top: 2rem;
+  
   a {
       font-family: 'Abel', sans-serif;
       font-size: 30px;
       text-transform: uppercase;
-      background-color: #6c757d;
+      background-color: #fff;
       line-height: 50px;
-      width: 50px;
       text-align: center;
       padding: 0 8px;
       display: inline-block;
-      color: #fff;
+      color: #6c757d;
+      border: solid 3px #6c757d;
       text-decoration: none;
 
       &:hover {

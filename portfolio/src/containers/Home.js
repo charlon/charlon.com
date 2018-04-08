@@ -14,9 +14,9 @@ const Home = () => (
         <div className="container">
           <div className="row">
             <div className="col-md-6 ooops">
-              <h1 className="">Charlon Palacay</h1>
-              <p className="lead">Product Designer currently working in Seattle, Washington. I have a passion for creating and designing positive user experiences.</p>
-              <p><a href="/about" className="btn btn-outline-secondary">more about me</a></p>
+              <h1 className="sr-only">Charlon Palacay</h1>
+              <p className="lead">Hello! I'm <strong>Charlon Palacay</strong>, a product designer and front-end developer from Seattle, Washington. I have a passion for creating and designing positive user experiences.</p>
+              <p><a href="/portfolio" className="btn btn-outline-secondary">view portfolio</a></p>
             </div>
             <div className="col-md-6 blah">
               &nbsp;
@@ -74,7 +74,6 @@ const Home = () => (
             </div>
 
             <div className="offset-md-2 col-md-8 text-center">
-              <a href="/portfolio" className="btn btn-outline-secondary">view my portfolio</a>&nbsp;&nbsp;
               <a href="/cpalacay-resume.pdf" className="btn btn-outline-secondary">download resume</a>
             </div>
 
