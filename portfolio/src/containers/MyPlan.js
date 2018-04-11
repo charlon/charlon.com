@@ -7,7 +7,7 @@ const MyPlan = () => (
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-8">
               <h1 className="">MyPlan</h1>
               <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
@@ -16,15 +16,25 @@ const MyPlan = () => (
       </div>
     </header>
 
-  <section id="where" className="">
+  <section id="where" className="bg-light">
     <div className="content">
       <div className="container">
         <div className="row">
 
           <div className="col-md-12">
 
-            <h2>Problem</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus congue, iaculis magna ac, volutpat ipsum. Integer bibendum tortor eget nunc tristique, eget porta leo consequat. Sed volutpat tincidunt lectus at ultrices. Suspendisse ornare libero metus, vel vestibulum tellus suscipit nec. Nam pellentesque lacus vitae hendrerit rhoncus. Cras quis augue ac magna iaculis faucibus vitae nec dolor. Fusce ac placerat massa. Proin semper elit eget nulla vulputate, porta accumsan metus posuere.</p>
+            <div className="row">
+              <div className="col-md-6">
+                <h2>Overview</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus congue, iaculis magna ac, volutpat ipsum. Integer bibendum tortor eget nunc tristique, eget porta leo consequat. Sed volutpat tincidunt lectus at ultrices. Suspendisse ornare libero metus, vel vestibulum tellus suscipit nec. Nam pellentesque lacus vitae hendrerit rhoncus.</p>
+                <h2>Role</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus congue, iaculis magna ac, volutpat ipsum. Integer bibendum tortor eget nunc tristique, eget porta leo consequat.</p>
+              </div>
+              <div className="col-md-6">
+                <h2>Problem</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet risus congue, iaculis magna ac, volutpat ipsum. Integer bibendum tortor eget nunc tristique, eget porta leo consequat. Sed volutpat tincidunt lectus at ultrices. Suspendisse ornare libero metus, vel vestibulum tellus suscipit nec. Nam pellentesque lacus vitae hendrerit rhoncus. Cras quis augue ac magna iaculis faucibus vitae nec dolor. Fusce ac placerat massa. Proin semper elit eget nulla vulputate, porta accumsan metus posuere.</p>
+              </div>
+            </div>
 
             <div className="text-center"><img className="" src="/macbook-iphone.png" width="900" alt="Card cap" /></div>
 

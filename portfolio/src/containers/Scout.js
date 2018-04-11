@@ -7,7 +7,7 @@ const Scout = () => (
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-8">
               <h1 className="">Scout</h1>
               <p className="lead">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
             </div>
@@ -16,7 +16,7 @@ const Scout = () => (
       </div>
     </header>
 
-  <section id="where" className="">
+  <section id="where" className="bg-light">
     <div className="content">
       <div className="container">
         <div className="row">
